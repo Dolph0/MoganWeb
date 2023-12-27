@@ -16,13 +16,13 @@ const Caraousal = (props: Props) => {
       className="mx-auto lg:divide-y lg:divide-gray-200 mt-2"
     >
       <div>
-        <img src="/Banner 1.svg" />
+        <img src="/Banner 1.jpeg" />
       </div>
       <div>
-        <img src="/Banner 2.svg" />
+        <img src="/Banner 2.png" />
       </div>
       <div>
-        <img src="/Banner 3.svg" />
+        <img src="/Banner 3.jpeg" />
       </div>
     </Carousel>
   );

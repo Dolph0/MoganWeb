@@ -16,11 +16,11 @@ const Card = (props: Props) => {
           alt=""
         />
       </div>
-      <div className="flex flex-col gap-1 justify-center items-center pb-10">
-        <h1 className=" text-white font-extrabold text-xl font-sans">
+      <div className="flex flex-col gap-1 text-center pb-10">
+        <h1 className=" text-white font-extrabold text-xl font-sans mx-3 mt-3">
           {props.title}
         </h1>
-        <p className=" text-white font-normal text-sm font-sans text-center">
+        <p className=" text-white font-normal text-sm font-sans text-center mx-3 mt-3">
           {props.subtitle}
         </p>
       </div>
