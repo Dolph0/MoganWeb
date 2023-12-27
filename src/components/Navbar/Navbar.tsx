@@ -24,7 +24,7 @@ const userNavigation = [
   { name: "Sign out", href: "#" },
 ];
 
-function classNames(...classes) {
+function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 type Props = {};
@@ -74,8 +74,11 @@ const Navbar = (props: Props) => {
                   </div>
                   <div className="hidden md:block">
                     <ul className="flex">
-                      {navigation.map((item) => (
-                        <li className="font-sans text-base text-[#004870]">
+                      {navigation.map((item, key) => (
+                        <li
+                          className="font-sans text-base text-[#004870]"
+                          key={key}
+                        >
                           {" "}
                           {item.name} | &nbsp;
                         </li>
