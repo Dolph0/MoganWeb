@@ -12,7 +12,7 @@ const user = {
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 };
 const navigation = [
-  { name: "Mogán Gestiona", href: "#", current: false },
+  { name: "Gestiona Mogán", href: "#", current: false },
   { name: "Playas", href: "#", current: true },
   { name: "Parking", href: "#", current: false },
   { name: "Zona azul", href: "#", current: false },
@@ -39,12 +39,12 @@ const Navbar = (props: Props) => {
               <div className="relative z-10 flex px-2 lg:px-0">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-12 w-auto"
+                    className="h-12 md:h-16 w-auto"
                     src="/Logo MG.svg"
                     alt="Your Company"
                   />
                   <img
-                    className="h-12 w-auto"
+                    className="h-12 md:h-16 w-auto"
                     src="/Logo Ayuntamiento.svg"
                     alt="Your Company"
                   />
